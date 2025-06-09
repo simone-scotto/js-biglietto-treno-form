@@ -59,10 +59,9 @@ formEl.addEventListener("submit", (e) => {
 
   cardbodyName.innerHTML = nameelValue;
   cardbodySeat.innerHTML = numbSeat + letterSeat;
-  cardbodyTrip.innerHTML = distanceelValue;
+  cardbodyTrip.innerHTML = distanceelValue + "km";
   cardbodyTotalprice.innerHTML = userAge() + "€";
   cardbodyDisount.innerHTML = ageEl.value;
-  cardbodyQrcode.innerHTML = "";
 
   function userAge(ageelValue) {
     if (ageEl.value === "tariffa minori") {
